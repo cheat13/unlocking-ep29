@@ -67,7 +67,7 @@ dotnet new api -n calculator.Api
 ```
 2. add calculator.Api เข้า solution
 ```
-dotnet sln calculator.sln add test/calculator.Api/calculator.Api.csproj
+dotnet sln calculator.sln add src/calculator.Api/calculator.Api.csproj
 ```
 สุดท้ายจะได้โครงสร้างตามภาพด้านล่าง
 ```
