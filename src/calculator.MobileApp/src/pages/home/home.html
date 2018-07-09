@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Grade calculator app
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item>
+    <ion-input [(ngModel)]="score" type="number" placeholder="Input your score (0-100)"></ion-input>
+  </ion-item>
+  <ion-item>
+    <label style="color:gray">{{result}}</label>
+  </ion-item>
+  <ion-grid>
+    <ion-row justify-content-center>
+      <button (click)="CalculateGrade()" ion-button round>Calculate</button>
+    </ion-row>
+  </ion-grid>
+</ion-content>
